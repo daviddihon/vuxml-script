@@ -1,6 +1,6 @@
 #!/bin/sh
 
-XML_DIR="/freebsd-ports/security/vuxml/vuln-flat.xml"
+XML_DIR="/usr/ports/security/vuxml/vuln-flat.xml"
  case "$1" in
         -a)
             exec  vxquery -a $XML_DIR "$2" > vuxml
